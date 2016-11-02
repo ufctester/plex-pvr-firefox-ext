@@ -1,0 +1,22 @@
+jpm is a command-line tool that enables you to test, run, and package add-ons.
+https://developer.mozilla.org/en-US/Add-ons/SDK/Tools/jpm#Installation
+
+Installation
+npm install jpm --global
+
+
+jpm init	Create a skeleton add-on as a starting point for your add-on.
+jpm run	Launch an instance of Firefox with your add-on installed.
+jpm test	Runs your add-on's unit tests.
+jpm xpi	Package your add-on as an XPI file, which is the install file format for Firefox add-ons.
+jpm post	Package your add-on as an XPI file, and then post it to some URL.
+jpm watchpost	Package your add-on as an XPI file whenever there is a file change and post that to some URL.
+jpm sign	Package your add-on as an XPI file, and then retrieve a new XPI signed by Mozilla.
+
+
+Run Add-ons
+jpm run -b "C:\Program Files (x86)\Firefox Developer Edition\firefox.exe"
+
+Packaging
+This command packages the add-on as an XPI file, which is the install file format for Mozilla add-ons.
+jpm xpi --dest-dir C:/tmp/a/

@@ -1,0 +1,19 @@
+{
+  "name": "plexpvr",
+  "title": "Plex Web Enhancements",
+  "id": "davespriet@gmail.com",
+  "main": "lib/main.js",
+  "description": "Adds several features to the Plex/Web 2.0 client for Plex",
+  "author": "Dave Spriet",
+  "license": "GPLv3",
+  "version": "1.0.0",
+  "icon": "data/resources/icon48.png",
+  "icon64": "data/resources/icon64.png",
+  "permissions": {"private-browsing": true},
+  "preferences": [{
+    "type": "control",
+    "label": "Open Preferences",
+    "name": "openOptions",
+    "title": "Preferences"
+  }]
+}
