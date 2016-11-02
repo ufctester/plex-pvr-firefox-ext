@@ -1,0 +1,1 @@
+# plex-pvr-firefox-ext
